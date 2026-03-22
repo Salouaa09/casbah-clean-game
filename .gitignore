@@ -1,0 +1,65 @@
+# ===========================
+# Unity .gitignore
+# Projet: casbah-clean-game
+# ===========================
+
+# Dossiers générés automatiquement par Unity (NE PAS uploader)
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+
+# Fichiers de cache VisualStudio
+.vs/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Dossier généré par les packages Unity
+[Pp]ackages/
+!Packages/manifest.json
+!Packages/packages-lock.json
+
+# Fichiers de configuration locale (chaque PC a les siens)
+ProjectSettings/ProjectVersion.txt
+
+# Fichiers système
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Fichiers de crashlog Unity
+sysinfo.txt
+*.stackdump
+
+# Rider / JetBrains
+.idea/
+*.sln.DotSettings.user
+
+# Visual Studio Code
+.vscode/
+
+# Nuget
+*.nupkg
+
+# Assets importés volumineux (optionnel - décommenter si besoin)
+# Assets/StreamingAssets/
